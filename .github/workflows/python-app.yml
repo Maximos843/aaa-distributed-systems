@@ -68,7 +68,7 @@ jobs:
     - name: Test with pytest
       run: |
         make ci-test
-        
+
       env:
         PGHOST: localhost
         PGUSER: postgres
