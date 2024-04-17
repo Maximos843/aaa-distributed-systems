@@ -7,7 +7,6 @@ ci-test:
 
 test:
 	act -j build --container-architecture linux/amd64
-
 format:
 	poetry run ruff format .
 
